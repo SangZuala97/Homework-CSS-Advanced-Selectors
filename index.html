@@ -1,3 +1,103 @@
+<<<<<<< HEAD
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Advanced Selectors Practice</title>
+
+    <style>
+
+      ul > li:nth-child(3),
+      ul > li:nth-child(4) {
+        color: red;
+      }
+
+      ol > li:nth-child(2),
+      ol > li:nth-child(4) {
+        font-size: 24px;
+      }
+
+      section > div {
+        height: 100px;
+        width: 100px;
+        background: red;
+        box-sizing: border-box;
+      }
+
+      section > div > p:first-child {
+        font-style: italic;
+      }
+
+      div:nth-of-type(2) p:not(:first-child) {
+        color: white;
+      }
+
+      button {
+        margin-top: 20px;
+        padding: 10px 16px;
+        border: 2px solid black;
+        border-radius: 12px;
+        cursor: pointer;
+        transition: 0.2s;
+      }
+  
+      button:hover {
+        background: blue;
+        color: white;
+      }
+
+      button:active {
+        border-radius: 0; /* sharp corners */
+        width: 200px;
+        height: 150px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h2>List 1 (Unordered)</h2>
+    <ul>
+        <li>Apple</li>
+        <li>Banana</li>
+        <li>Cookies</li>
+        <li>Eggs</li>
+        <li>Tacos</li>
+    </ul>
+
+    <h2>List 2 (Ordered)</h2>
+    <ol>
+      <li>Jet's Pizza</li>
+      <li>Jagger's</li>
+      <li>Don Cuervo</li>
+      <li>Applebee's</li>
+    </ol>
+
+    <h2>Three Divs</h2>
+    <section>
+      <div>
+        <p>Lorem ipsum</p>
+        <p>Lorem ipsum</p>
+        <p>Lorem ipsum</p>
+    </div>
+
+    <div>
+        <p>Lorem ipsum</p>
+        <p>Lorem ipsum</p>
+        <p>Lorem ipsum</p>
+    </div>
+
+    <div>
+        <p>Lorem ipsum</p>
+        <p>Lorem ipsum</p>
+        <p>Lorem ipsum</p>
+    </div>
+    </section>
+
+    <button>Interact</button>
+  </body>
+</html>
+=======
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -94,3 +194,4 @@
     <button>Interact</button>
   </body>
 </html>
+>>>>>>> b4a69cea7fc94ed1e5cb04b9724014fbc80681bd
